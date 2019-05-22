@@ -1,0 +1,36 @@
+@import '../../assets/scss/main';
+
+#cover-image {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background: url($ny-cover-img) no-repeat center center fixed;
+  background-size: cover;
+
+  .title-card{
+    position: sticky;
+    top: 60%;
+    left: 350px;
+    width: 22%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: $dark-background;
+    h1{
+      flex: auto;
+      flex-flow: row nowrap;
+      font-size: 250%;
+      margin-top: 5px;
+    }
+    p {
+      flex: auto;
+      flex-flow: row nowrap;
+      font-size: 120%;
+    }
+  }
+}
+
+#other{
+  height: 100vh;
+  width: 100%;
+}
